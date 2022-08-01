@@ -1,0 +1,177 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu{
+    padding: 5px;
+    background-color: rgb(106, 224, 106);
+    position: sticky;
+    width: 100%;
+    height: auto;
+    border-bottom: 8px solid rgb(70, 119, 119);
+}
+.logo{
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+.img-circulo{
+    border-radius: 50%;
+    border-color: #57024b;
+    
+    
+}
+header{
+    display: flex;
+}
+.menu nav{
+    padding-left: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu nav ul{
+    display: inline-block;
+    padding: auto;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.menu nav ul li{
+    display: inline;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+}
+.sandia{
+ background-color: grey;
+}
+.sandia .contenedor img{
+   margin-right: 400px;
+   margin-left: auto;
+}
+.sandia div{
+    display: flex;
+}
+.sandia .contenido{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sandia h2{
+   margin-left: 250px;
+   color: white;
+}
+.sandia p{
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.frutilla{
+    background-color: #F26D6D;
+    padding: 50px;
+}
+.frutilla div{
+    display: flex;
+}
+.frutilla p{
+    background-color:#a84c4c;
+    color: white;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.frutilla h2{
+    color: white;
+}
+.frutilla .contenido{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.frutilla .contenedor img{
+    margin-right: auto;
+    margin-left: 500px;
+ }
+.pera{
+ background-color: #F9B200;
+}
+.pera .contenedor img{
+   margin-right: 400px;
+   margin-left: auto;
+}
+.pera div{
+    display: flex;
+}
+.pera .contenido{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pera h2{
+   margin-left: 250px;
+   color: white;
+}
+.pera p{
+    background-color: #b88403;
+    color: white;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banana{
+    background-color: #c79c24;
+    padding: 50px;
+}
+.banana div{
+    display: flex;
+}
+.banana p{
+    background-color:#866919;
+    color: white;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banana h2{
+    color: white;
+}
+.banana .contenido{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banana .contenedor img{
+    margin-right: auto;
+    margin-left: 500px;
+ }
+ footer{
+    background-color: black;
+    padding: 40px;
+ }
+ footer p{
+    color: white;
+    text-align: center;
+ }
